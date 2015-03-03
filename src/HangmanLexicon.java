@@ -1,8 +1,6 @@
 /*
  * File: HangmanLexicon.java
  * -------------------------
- * This file contains a stub implementation of the HangmanLexicon
- * class that you will reimplement for Part III of the assignment.
  */
 
 import java.io.BufferedReader;
@@ -38,7 +36,6 @@ public class HangmanLexicon {
 			try {
 				rd.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
