@@ -50,18 +50,20 @@ public class HangmanCanvas extends GCanvas {
 
 /**
  * Updates the display to correspond to an incorrect guess by the
- * user.  Calling this method causes the next body part to appear
- * on the scaffold and adds the letter to the list of incorrect
- * guesses that appears at the bottom of the window.
+ * user.  
  */
 	public void noteIncorrectGuess(char letter) {
-		/* You fill this in */
 		String one_more_letter = String.valueOf(letter);
 		INCORRECT_GUESSES += one_more_letter;
 		add(new GLabel (INCORRECT_GUESSES), WORD_X, WORD_Y + 20);	
 	}
 	
 	
+	/**
+ 	* Calling this method causes the next body part to appear
+ 	* on the scaffold.
+	*/
+
 	public void nextBodyPart(int i) {
 		switch(i) {
 		case 7: 
