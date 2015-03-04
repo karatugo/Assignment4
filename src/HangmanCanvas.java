@@ -20,7 +20,6 @@ public class HangmanCanvas extends GCanvas {
 		GLine ROPE = new GLine(SCAFFOLD_START_X + BEAM_LENGTH, SCAFFOLD_START_Y, SCAFFOLD_START_X + BEAM_LENGTH, SCAFFOLD_START_Y + ROPE_LENGTH);
 		add(ROPE);	
 		
-		//add(new GLabel("hello, world"), 10, 75);
 		
 	}
 
